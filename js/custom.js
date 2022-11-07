@@ -11,9 +11,9 @@
 // also note how I left out the 'http:' part. we don't need it, the browser automatically
 // decides if he needs http or https.
 var videoStorage = [ 
-    '/video/1.mp4',
-    '/video/2.mp4',
-    '/video/3.mp4',
+    './video/1.mp4',
+    './video/2.mp4',
+    './video/3.mp4',
 ]
 video = document.querySelector('video');
     // choose one random url from our storage as the active video
